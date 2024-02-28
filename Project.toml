@@ -1,0 +1,13 @@
+name = "MyFirstPackage"
+uuid = "2c67001c-f22e-4801-a899-83b92d7e8e0b"
+authors = ["XintaoFeng"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
